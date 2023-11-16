@@ -1,0 +1,113 @@
+body{
+  font-family: Arial;
+  font-size: small;
+}
+#cabecera{
+  margin-top: 12px;
+}
+body{
+  margin: 0px
+}
+#cabecera{
+  display: flex;
+  width: 100%;
+}
+#cabecera_a a{
+margin: 12px;  
+}
+#cabecera_b{
+  margin-left:   77%
+}
+#barra_buscar{
+  width: 40%;
+  padding: 10px;
+  border-radius: 32px;
+  margin-bottom: 12px;
+  outline: 0;
+  border: 1px lightgrey solid;
+}
+#botones button{
+  border-radius: 6px;
+  padding: 12px;
+  background-color: #fafafa;
+  	outline: 0;
+		border: solid 1px white ;
+}
+#botones button:hover{
+  border: solid 1px gray ;
+}
+#caja_central{
+  margin-top: 100px;
+  align-content: center;
+  text-align: center;
+}
+#botones{
+  margin-bottom: 12px;
+}
+#pie{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+margin-top:  190px;  
+background-color: #f2f2f2;  
+color:#4d4d4d;
+height: 5.4rem; 
+  
+}
+#cabecera a{
+  color:black;
+  text-decoration:none;
+}
+#caja_texto_abajo{
+  padding-top: 12px
+}
+#cabecera a:hover{
+  text-decoration:underline;
+}
+#pie a:hover{
+  text-decoration:underline;
+}
+#pie a{
+   text-decoration:none;
+  color:#4d4d4d;
+}
+#caja_central a{
+  color: black;
+  text-decoration: none;
+}
+#caja_central a:hover{
+  text-decoration: underline;
+}
+#pie_a{
+  margin:9px;
+  padding-top: 9px;
+}
+#pie_b{
+ margin-top: 19px; 
+ display: flex; 
+}
+#pie_b_b{
+  margin: auto;
+}
+#pie_b_a a{
+  margin: 10px;
+}
+#pie_b_c a{
+  margin: 10px;
+}
+#config img{
+  margin-top: -6px;
+  width: 70%;
+  margin-left: 12px;
+}
+hr{
+  color: lightgray;
+}
+#anuncio{
+  color:darkblue;
+  margin: 12px;
+}
+#pie_b img{
+  width: 10px;
+  margin-inline: 5px;
+}

@@ -1,0 +1,50 @@
+#container {
+  background-color: #0a0a0a;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 2fr 2fr 4fr 2fr 4fr 2fr 4fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 5px;
+}
+body {
+  margin: 0;
+}
+.logo {
+  margin-left: 10px;
+  margin-right: 60px;
+  width: 163px;
+}
+.buttons {
+  position: absolute;
+  right: 0;
+}
+.cabecera {
+  color: white;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  font-size: 32px;
+  margin-inline: 12px;
+  display: flex;
+  grid-column: 1 / 6;
+}
+
+.cabecera p {
+  margin: 12px;
+}
+.titulos {
+  color: white;
+  grid-column: 1 / 6;
+  font-size: 1.4vw;
+  line-height: 1.25vw;
+  margin-top: auto;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+.pelicula {
+  width: 100%;
+  height: 100%;
+}
+.pelicula img {
+  width: 100%;
+}
